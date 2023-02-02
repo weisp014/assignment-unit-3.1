@@ -105,3 +105,5 @@ console.log(`${favoriteFoods[0]} and ${favoriteFoods[1]} and ${favoriteFoods[2]}
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+let foodAndAnimals = [...favoriteFoods, ...animalArray];    //using spread operator
+console.log('combined arrays:', foodAndAnimals);
